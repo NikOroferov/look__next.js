@@ -3,7 +3,7 @@ import MyLink from "../components/MyLink";
 
 export default function Users({ users }) {
   return (
-    <MainContainer keyword="users list">
+    <MainContainer keyword="users list" title="Users list">
       <h1>Users list</h1>
       <ul>
         {users.map(user => (

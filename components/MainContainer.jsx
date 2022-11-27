@@ -2,12 +2,12 @@ import MyLink from "./MyLink";
 import Head from "next/head";
 import css from "../styles/index.module.css";
 
-export default function MainContainer({ children, keyword }) {
+export default function MainContainer({ children, keyword, title }) {
   return (
     <>
       <Head>
         <meta keyword={keyword}></meta>
-        <title>Users app</title>
+        <title>{title}</title>
       </Head>
       <header>
         <nav className={css.navbar}>

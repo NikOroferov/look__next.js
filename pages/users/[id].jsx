@@ -6,7 +6,7 @@ export default function User({ user }) {
   // const { query } = useRouter();
   // qury.id
   return (
-    <MainContainer keyword={user.name}>
+    <MainContainer keyword={user.name} title={user.name}>
       <div className={css.user__page}>
         <h1>User id: {user.id}</h1>
         <strong className={css.title}>User name: {user.name}</strong>
