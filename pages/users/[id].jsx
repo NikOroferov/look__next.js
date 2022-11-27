@@ -1,12 +1,17 @@
 // import { useRouter } from "next/router";
 import css from "../../styles/user.module.scss";
+import MainContainer from "../../components/MainContainer";
 
 export default function User({ user }) {
   // const { query } = useRouter();
+  // qury.id
   return (
-    <div>
-      <strong className={css.title}>User {user.name}</strong>
-    </div>
+    <MainContainer keyword={user.name}>
+      <div className={css.user__page}>
+        <h1>User id: {user.id}</h1>
+        <strong className={css.title}>User name: {user.name}</strong>
+      </div>
+    </MainContainer>
   );
 }
 

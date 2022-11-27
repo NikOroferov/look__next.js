@@ -38,6 +38,9 @@ bower_components
 build/Release
 
 # Dependency directories
+/.env
+/.idea
+/.next
 node_modules/
 jspm_packages/
 

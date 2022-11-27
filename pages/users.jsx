@@ -1,10 +1,9 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
+import MainContainer from "../components/MainContainer";
 import MyLink from "../components/MyLink";
 
 export default function Users({ users }) {
   return (
-    <div>
+    <MainContainer keyword="users list">
       <h1>Users list</h1>
       <ul>
         {users.map(user => (
@@ -13,7 +12,7 @@ export default function Users({ users }) {
           </li>
         ))}
       </ul>
-    </div>
+    </MainContainer>
   );
 }
 

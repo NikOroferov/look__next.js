@@ -1,0 +1,17 @@
+.navbar {
+  background: gold;
+  padding: 15px;
+}
+
+.navbar__list{
+  display: flex;
+  align-items: center;
+}
+
+.navbar__item{
+  margin-right: 15px;
+}
+
+.main{
+  padding: 15px;
+}
