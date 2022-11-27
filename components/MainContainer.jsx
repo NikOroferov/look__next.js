@@ -7,7 +7,7 @@ export default function MainContainer({ children, keyword }) {
     <>
       <Head>
         <meta keyword={keyword}></meta>
-        <title>Main page</title>
+        <title>Users app</title>
       </Head>
       <header>
         <nav className={css.navbar}>
